@@ -1,1 +1,5 @@
 # Image-recognition-AI
+-	Objective: Give the model any picture and it will classify what is in the picture
+-	For this project I used an open-source python library called imageAI that has self-contained Deep Learning and Computer Vision capabilities. ImageAI also supports prediction and training using 4 different machine learning algorithms trained on the ImageNet-1999 dataset. 
+-	First what I have to do is import the library and OS and set the current working directory so I can easily grab the pictures. Next, I instantiate the image prediction model I just imported and set the model type. Next, using the os I set the path so the program knows which model to use and where it is and finally I load the model.  
+-	Now to make predictions I make 2 objects predictions and probabilities. For predictions I am going to give it an image and for probabilities I tell it how many guesses it can give me. Finally I make a for loop that loops through each prediction and prints out each prediction and its probability. 
