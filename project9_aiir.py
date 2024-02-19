@@ -11,6 +11,3 @@ prediction.loadModel()
 predictions, probabilities = prediction.classifyImage(os.path.join(execution_path, "house.jpg"), result_count=3 )  #Result count is how many predictions we want the model to give us
 for eachPrediction, eachProbability in zip(predictions, probabilities):
     print(f'{eachPrediction} , : , {eachProbability}')
-
-
-#For this project we used 
