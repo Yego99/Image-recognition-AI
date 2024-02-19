@@ -1,5 +1,8 @@
 # Image-recognition-AI
--	Objective: Give the model any picture and it will classify what is in the picture
--	For this project I used an open-source python library called imageAI that has self-contained Deep Learning and Computer Vision capabilities. ImageAI also supports prediction and training using 4 different machine learning algorithms trained on the ImageNet-1999 dataset. 
--	First what I have to do is import the library and OS and set the current working directory so I can easily grab the pictures. Next, I instantiate the image prediction model I just imported and set the model type. Next, using the os I set the path so the program knows which model to use and where it is and finally I load the model.  
--	Now to make predictions I make 2 objects predictions and probabilities. For predictions I am going to give it an image and for probabilities I tell it how many guesses it can give me. Finally I make a for loop that loops through each prediction and prints out each prediction and its probability. 
+For this project I wanted to experiment with AI tools, so I decided to make an image classification program that uses an open-source python library called imageAI specifically the MobileNetV2 model. With those tools I was able to make an image classification program that outputs the models top 3 guesses as to what is in the image and the respective probabilities
+
+To use this program: 
+1)	Type “pip install -r requirements.txt” into the command line.
+2)	On the ImageAI website under image classification install the MobileNetV2 model 
+3)	Download the pictures you want to classify into the same folder you download the code into.
+
